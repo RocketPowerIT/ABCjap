@@ -8,12 +8,12 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.japabcbookstudy.abcjap
+        bundle_identifier: com.japabcbook.study
       vars:
-        BUNDLE_ID: "com.japabcbookstudy.abcjap"
+        BUNDLE_ID: "com.japabcbook.study"
         XCODE_WORKSPACE: "ABCjap.xcworkspace"
         XCODE_SCHEME: "ABCjap"
-        APP_STORE_APPLE_ID: 1555555551
+        APP_STORE_APPLE_ID: 6759168662
       xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
       cocoapods: default
     scripts:
